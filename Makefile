@@ -5,3 +5,4 @@ install:
 	uv tool install --with-editable "." .
 	c1 --install-completion
 	c1 --show-completion fish | source
+	echo "c1 --show-completion fish | source" | wl-copy

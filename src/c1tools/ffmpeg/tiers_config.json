@@ -1,0 +1,37 @@
+[
+    {
+        "resolution": 1080,
+        "framerate": 60,
+        "min_bitrate_kbps": 8000
+    },
+    {
+        "resolution": 1080,
+        "framerate": 30,
+        "min_bitrate_kbps": 6000
+    },
+    {
+        "resolution": 720,
+        "framerate": 60,
+        "min_bitrate_kbps": 5000
+    },
+    {
+        "resolution": 720,
+        "framerate": 30,
+        "min_bitrate_kbps": 3500
+    },
+    {
+        "resolution": 480,
+        "framerate": 60,
+        "min_bitrate_kbps": 2500
+    },
+    {
+        "resolution": 480,
+        "framerate": 30,
+        "min_bitrate_kbps": 1500
+    },
+    {
+        "resolution": 360,
+        "framerate": 30,
+        "min_bitrate_kbps": 800
+    }
+]

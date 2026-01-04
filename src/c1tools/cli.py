@@ -3,7 +3,10 @@ import logging
 import typer
 from rich.logging import RichHandler
 
+from .ffmpeg import ffmpeg
 from .proj import projects
+
+# from .yt import yt
 
 app = typer.Typer()
 
@@ -14,6 +17,7 @@ logging.basicConfig(
 
 
 app.add_typer(projects, name="proj", help="Create and manage projects.")
+app.add_typer(ffmpeg, name="ffmpeg", help="Work with FFmpeg.")
 
 
 def main() -> None:

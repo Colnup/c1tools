@@ -1,0 +1,1 @@
+{"av1_nvenc": false, "av1_qsv": false, "av1_amf": false, "libaom-av1": true, "hevc_nvenc": true, "hevc_qsv": false, "hevc_amf": false, "libx265": true, "h264_nvenc": true, "h264_qsv": false, "h264_amf": false, "libx264": true}

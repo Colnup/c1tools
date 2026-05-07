@@ -56,7 +56,7 @@ def get_latest_downloads(max_age_in_minutes: int = 5) -> list[Path]:
 def rendu(overwrite: bool = True) -> None:
     """Convert all markdown files in the current directory to PDF using Pandoc."""
 
-    md_files = list(WORKDIR.glob("*_rendu_Colin_PROKOPOWICZ.md"))
+    md_files = list(WORKDIR.glob("*.md"))
     if not md_files:
         log.warning("No markdown files found in the current directory.")
         return
